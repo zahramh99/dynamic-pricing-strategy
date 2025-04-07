@@ -1,0 +1,3 @@
+import os
+os.makedirs('assets/images', exist_ok=True)
+fig.write_image('assets/images/plot_name.png')
