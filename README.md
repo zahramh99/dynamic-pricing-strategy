@@ -11,11 +11,9 @@ Dynamic Pricing is an application of data science that involves adjusting the pr
 - Machine learning model for price prediction
 - Profitability analysis
 
-## Installation
-1. Clone this repository:
-   git clone https://github.com/zahramhh99/dynamic-pricing-strategy.git
 
-   Usage
+
+## Usage
 Run the Jupyter notebook for exploratory analysis:
 jupyter notebook notebooks/dynamic_pricing_analysis.ipynb
 To train the model:
@@ -23,7 +21,7 @@ python src/model_training.py
 To make predictions:
 python src/predict.py
 
-Data :
+## Data :
 The dataset used in this project contains information about:
 Number of riders
 Number of drivers
@@ -31,5 +29,5 @@ Vehicle type
 Expected ride duration
 Historical cost of rides
 
-Results : 
+## Results : 
 Our dynamic pricing strategy achieved [X]% improvement in profitability compared to fixed pricing.
